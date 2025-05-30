@@ -8,7 +8,7 @@ A NixOS module for configuring networks using systemd-networkd. Supports bonds, 
 
 ## What it does
 
-- **Interface renaming**: Rename interfaces from udev names (e.g., `ens3`) to predictable names (e.g., `eth0`)
+- Interface renaming
 - Interface bonding (active-backup, LACP, etc.)
 - Bridge configuration for VMs and containers
 - VLAN tagging
