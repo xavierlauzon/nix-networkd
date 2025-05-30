@@ -156,7 +156,7 @@ host.network.bonds.bond0 = {
 
 **Optional:**
 
-- `mac` - Optional MAC address for the bridge (useful for OVH failover IPs)
+- `mac` - Optional MAC address for the bridge
 
 **Example:**
 
