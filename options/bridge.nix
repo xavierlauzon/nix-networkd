@@ -14,7 +14,7 @@ in
     mac = mkOption {
       type = types.nullOr types.str;
       default = null;
-      description = "MAC address to assign to the bridge (useful for OVH failover IPs)";
+      description = "MAC address to assign to the bridge";
       example = "00:11:22:33:44:55";
     };
     ipv4 = common.mkNetworkOptions "ipv4";
